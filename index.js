@@ -1,7 +1,8 @@
-import makeWASocket, { useMultiFileAuthState } from '@whiskeysockets/baileys';
+import { makeWASocket, useMultiFileAuthState } from '@whiskeysockets/baileys';
 import qrcodeTerminal from 'qrcode-terminal';
 import express from 'express';
 import axios from 'axios';
+
 
 const PORT = process.env.PORT || 3000;
 
